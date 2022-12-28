@@ -16,9 +16,9 @@ export default {
 
 <template>
     <div class="container mx-auto">
-        <div v-for="todo in todos" class="flex-wrap justify-between items-center bg-slate-300 p-2 rounded-sm mb-4">
-            <div class="item">
-                <h3 class="font-semibold ">{{ todo.title }}</h3>
+        <div class="flex flex-wrap -mx-4">
+            <div v-for="todo in todos" class="w-1/3 px-4 mt-6">
+                <h3 class=" bg-slate-300 font-semibold p-2 rounded-sm h-full">{{ todo.title }}</h3>
             </div>
         </div>
     </div>
